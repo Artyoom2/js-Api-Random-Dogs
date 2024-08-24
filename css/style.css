@@ -39,3 +39,22 @@
 	background-color: #222;
 	transition: 0.35s ease-in;
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem; /* Уменьшаем размер шрифта для меньших экранов */
+  }
+
+  .card {
+    margin: 8px; /* Уменьшаем отступы на маленьких экранах */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem; /* Еще меньше для мобильных устройств */
+  }
+
+  .click_cat {
+    padding: 10px 15px; /* Уменьшаем кнопки для мобильной версии */
+  }
+}
